@@ -1,14 +1,14 @@
-# YouTube Time Marker
+# Video Time Marker
 
 # Introduction
 
-**YouTube Time Marker**는 시청하던 동영상의 특정부분을 **Marking**하여 저장하는 **Chrome Extension**입니다. 
+**Video Time Marker**는 시청하던 동영상의 특정부분을 **Marking**하여 저장하는 **Chrome Extension**입니다. 
 
 ![ScreenShot](youTubeTimeMarkerAppView.png)
 
 ## Requirements
 
-- YouTube Time Marker은 Chrome Extension입니다.
+- Video Time Marker은 Chrome Extension입니다.
 - [Chrome Webstore](https://chrome.google.com/webstore/category/extensions?hl=ko)에서 설치가 선행되어야 합니다.
 
 
@@ -21,8 +21,8 @@
 
 ### Client
 ```
-git clone https://github.com/Dailyscat/Youtube-Time-Marker.git
-cd Youtube-Time-Marker
+git clone https://github.com/Dailyscat/Video-Time-Marker-whale.git
+cd Video-Time-Marker-whale
 npm install
 npm start
 ```
