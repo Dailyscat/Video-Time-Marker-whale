@@ -1,0 +1,22 @@
+.Header {
+    text-align: center;
+    color: white;
+}
+
+.settingIcon {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.settingIcon i:hover {
+    transform: rotate(180deg);
+}
+
+.settingIcon i.setting.large.icon:hover {
+    transition-duration: 900ms;
+}
+
+.ui.tag.label.label {
+    cursor: pointer;
+}
