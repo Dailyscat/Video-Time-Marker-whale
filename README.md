@@ -9,7 +9,7 @@
 ## Requirements
 
 - Video Time Marker은 Chrome Extension입니다.
-- [Chrome Webstore](https://chrome.google.com/webstore/category/extensions?hl=ko)에서 설치가 선행되어야 합니다.
+- [whale Webstore](https://store.whale.naver.com/detail/ahmenldfkhfgdgdkaijidhjlngmbhoca)에서 설치가 선행되어야 합니다.
 
 
 ## Prerequisites
