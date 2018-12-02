@@ -62,11 +62,11 @@ class URLInput extends Component {
     static getDerivedStateFromProps(props, state){
         if(props.inYoutube){
             if(state.prevCurrentTime !== props.currentTime){
-                if(isNaN(Number(state.markName))) {
+                if(isNaN(Number(state.markName.split(" ")[0]))) {
                     return "";
-                }else {
+                } else {
                     return {
-                        markName: props.currentTime,
+                        markName: props.currentTime + " sec",
                         prevCurrentTime: props.currentTime,
                     }
                 }

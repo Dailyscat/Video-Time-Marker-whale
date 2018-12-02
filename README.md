@@ -4,7 +4,7 @@
 
 **YouTube Time Marker**는 시청하던 동영상의 특정부분을 **Marking**하여 저장하는 **Chrome Extension**입니다. 
 
-[![ScreenShot](youTubeTimeMarkerAppView.png)]
+![ScreenShot](youTubeTimeMarkerAppView.png)
 
 ## Requirements
 
@@ -50,6 +50,7 @@ npm start
 - React, Webpack, CSS Modules을 사용한 컴포넌트 베이스 UI 아키텍처 구현
 - React Hot Loader 플러그인을 사용, 프런트 개발 환경 간편화
 - Semantic UI React의 Component 사용
+- Chrome runtime Message 기능 사용
 
 ## Server-Side
 

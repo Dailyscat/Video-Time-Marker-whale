@@ -85,10 +85,7 @@ class App extends Component {
     chromeService.progressClick();
     //Tab이 변경될 때
     chromeService.changeTab((result) => {
-      console.log(result);
-      console.log(result[0]);
       chromeService.currentTime((result) => {
-        console.log(result);
         if(result){
           this.setState({
             currentTime: result[0],
@@ -98,8 +95,6 @@ class App extends Component {
         }
       });
       chromeService.videoId((result) => {
-        console.log("result");
-        console.log(result);
         if(result[0]){
           this.setState({
             videoId: result[0],
