@@ -300,7 +300,7 @@ class App extends Component {
       chromeService.get(result => { 
         const fileCopy = Object.assign({}, this.state.file);   
         fileCopy.id = Date.now();
-        fileCopy.name = name;
+        fileCopy.name = `${name}`;
         fileCopy.url = `https://youtu.be/`+ this.state.videoId + `?t=`+ this.state.currentTime;  
         if(currentFolderId === "top"){
           result.children.push(fileCopy)

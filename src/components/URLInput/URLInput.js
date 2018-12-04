@@ -65,8 +65,21 @@ class URLInput extends Component {
                 if(isNaN(Number(state.markName.split(" ")[0]))) {
                     return "";
                 } else {
+                    let parseHour = parseInt(props.currentTime / 3600);
+                    let hour = parseHour >= 10 ? parseHour : `0${ parseHour }`;
+                    let parseMinute = parseInt((props.currentTime - (hour * 3600)) / 60);
+                    let minute = parseMinute >= 10 ? parseMinute : `0${ parseMinute }` ;
+                    let parseSec = parseInt((props.currentTime - (hour * 3600)) % 60);
+                    let sec = parseSec >= 10 ? parseSec : `0${ parseSec }` ;
+                    let total;
+
+                    if(Number(hour)){
+                        total = `${hour} : ${minute} : ${sec}`
+                    }else{
+                        total = `${minute} : ${sec}`
+                    }
                     return {
-                        markName: props.currentTime + " sec",
+                        markName: total,
                         prevCurrentTime: props.currentTime,
                     }
                 }

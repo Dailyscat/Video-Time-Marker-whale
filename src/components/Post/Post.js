@@ -240,7 +240,7 @@ class Post extends Component {
                     <List.Icon name='folder open' />
                     <List.Content>
                         <input  className = "editInput none" defaultValue = {this.props.defaultFolderName} onKeyDown = {this.pushEnterFunction.bind(this)} onBlur = {this.inputBlur.bind(this)} autoFocus/> 
-                        <List.Header className = "default" data-id = {"top"} onClick = {this.hideList.bind(this)} onMouseEnter = {this.onHover.bind(this)} onMouseLeave = {this.offHover.bind(this)} >
+                        <List.Header className = "default" data-id = "top" onClick = {this.hideList.bind(this)} onMouseEnter = {this.onHover.bind(this)} onMouseLeave = {this.offHover.bind(this)} >
                             {this.props.defaultFolderName}
                             {this.props.selectedFolderId === this.state.defaultSelected ? <Icon color = "red" name = "check circle" size= "small" data-id = "top"/> : <Icon name = "check circle" size= "small" data-id = "top"/>}
                                 <Fragment>                           
